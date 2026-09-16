@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  background-color: #fff;
+}
+
+/* Header styling */
+
+header,
+header .search,
+header .icons,
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+}
+
+header .logo {
+  gap: 30px;
+}
