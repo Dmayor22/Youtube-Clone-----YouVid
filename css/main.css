@@ -20,10 +20,74 @@ header .logo {
 }
 
 header {
-  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.7);
   padding: 10px 20px;
 }
 
 header .logo {
   gap: 30px;
+}
+
+.logo #menu {
+  width: 30px;
+  cursor: pointer;
+}
+
+.logo #app_logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+header .search {
+  gap: 6px;
+  width: 34%;
+}
+
+.search .search_details {
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 6px;
+}
+
+.search_details input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 4px 6px;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+.search_details img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.search_details input::placeholder {
+  font-size: 1rem;
+}
+
+.search > img {
+  width: 22px;
+  cursor: pointer;
+}
+
+.icons #profile_img {
+  width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.icons .icon_img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.icons {
+  gap: 15px;
+  margin-right: 20px;
 }
