@@ -21,7 +21,8 @@ header .logo {
 
 header {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.7);
-  padding: 10px 20px;
+  padding: 10px 30px;
+  background-color: #fff;
 }
 
 header .logo {
@@ -45,7 +46,7 @@ header .search {
 
 .search .search_details {
   width: 100%;
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 16px;
   display: flex;
   justify-content: center;
@@ -59,7 +60,6 @@ header .search {
   outline: 0;
   padding: 4px 6px;
   font-size: 1rem;
-  border-radius: 16px;
 }
 
 .search_details img {
@@ -90,4 +90,48 @@ header .search {
 .icons {
   gap: 15px;
   margin-right: 20px;
+}
+
+/* main content */
+main {
+  display: flex;
+  padding: 10px 30px;
+  gap: 20px;
+  margin-top: 10px;
+}
+/* sidebar */
+aside {
+  flex-basis: 12%;
+  background-color: #fff;
+}
+
+.top_side ul {
+  list-style: none;
+}
+
+.top_side ul li {
+  padding-bottom: 20px;
+}
+
+.top_side_details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.top_side_details > span {
+  font-size: 1.1rem;
+  color: grey;
+}
+
+.top_side .top_side_details > img {
+  width: 20px;
+}
+
+/* video content display */
+section {
+  flex-basis: 88%;
+  border: 2px solid red;
+  height: 100vh;
 }
