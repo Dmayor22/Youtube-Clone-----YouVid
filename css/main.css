@@ -97,7 +97,7 @@ header .search {
 main {
   display: flex;
   padding: 10px 30px;
-  gap: 20px;
+  gap: 30px;
   margin-top: 10px;
 }
 /* sidebar */
@@ -149,9 +149,29 @@ aside {
   border-radius: 50%;
 }
 
+/* responsive sidebar */
+.menu_sidebar.menu_display {
+  display: none;
+}
+
+.menu_sidebar_display.menu_display {
+  flex-basis: 1%;
+  display: block;
+}
+
+.responsive_sidebar ul li > img,
+.subscried_responsive li > img {
+  width: 20px;
+  cursor: pointer;
+}
+
 /* video content display */
 section {
   flex-basis: 88%;
   border: 2px solid red;
   height: 100vh;
+}
+
+.video_section.menu_display {
+  flex-basis: 97%;
 }
