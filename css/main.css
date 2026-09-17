@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -121,12 +122,31 @@ aside {
 }
 
 .top_side_details > span {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: grey;
+  font-weight: 500;
 }
 
 .top_side .top_side_details > img {
   width: 20px;
+}
+
+.subscribed {
+  margin-top: 20px;
+}
+
+.subscribed > ul {
+  margin-top: 20px;
+}
+
+.subscribed > p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: gray;
+}
+
+.subscribed ul li img {
+  border-radius: 50%;
 }
 
 /* video content display */
