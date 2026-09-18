@@ -90,7 +90,6 @@ header .search {
 
 .icons {
   gap: 15px;
-  margin-right: 20px;
 }
 
 /* main content */
@@ -168,10 +167,63 @@ aside {
 /* video content display */
 section {
   flex-basis: 88%;
-  border: 2px solid red;
-  height: 100vh;
 }
 
+.banner {
+  width: 100%;
+  cursor: pointer;
+}
+
+section .video_category {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.video_cat_details {
+  padding-bottom: 15px;
+}
+
+.video_category .video_cat_details a > img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.video_cat_details .video_cat_caption {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.video_cat_caption > img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.video_cat_caption .video_cat_caption_details a {
+    text-decoration: none;
+}
+
+.video_cat_caption .video_cat_caption_details a > p {
+  color: #000;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.video_cat_caption .video_cat_caption_details span {
+  color: gray;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* video content responsivess */
 .video_section.menu_display {
   flex-basis: 97%;
 }
