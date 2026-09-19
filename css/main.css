@@ -24,6 +24,9 @@ header {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.7);
   padding: 10px 30px;
   background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 header .logo {
@@ -103,6 +106,9 @@ main {
 aside {
   flex-basis: 12%;
   background-color: #fff;
+  top: 70px;
+  position: sticky;
+  align-self: flex-start;
 }
 
 .top_side ul {
@@ -167,6 +173,9 @@ aside {
 /* video content display */
 section {
   flex-basis: 88%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
 }
 
 .banner {
@@ -205,7 +214,7 @@ section .video_category {
 }
 
 .video_cat_caption .video_cat_caption_details a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .video_cat_caption .video_cat_caption_details a > p {
