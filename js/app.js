@@ -9,5 +9,3 @@ menuBar.addEventListener("click", () => {
   sidebarMenu.classList.toggle("menu_display");
   videoSection.classList.toggle("menu_display");
 });
-
-console.log(sidebar);
