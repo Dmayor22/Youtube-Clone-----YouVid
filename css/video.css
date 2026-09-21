@@ -96,4 +96,81 @@
   font-size: 0.9rem;
 }
 
+/* comments */
+.comment_section {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
 
+.comment_section > img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.comment_details_cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comment_details_title > p {
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.comment_details_title > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.comment_details_cta button {
+  background-color: red;
+  padding: 10px 40px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.desc {
+  margin-bottom: 10px;
+  color: gray;
+  font-weight: 600;
+}
+
+#total_comments {
+  margin: 10px 0 30px 0;
+  font-weight: 800;
+}
+
+.user_comment_input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.user_comment_input > img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.user_comment_input > textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  resize: none;
+  font-size: 1rem;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  height: 30px;
+}
+
+.user_comment_input > textarea::placeholder {
+  font-size: 0.8rem;
+}
