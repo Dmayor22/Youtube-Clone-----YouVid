@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  cursor: pointer;
 }
 
 .social_cta {
@@ -53,13 +54,12 @@
   font-weight: 500;
 }
 
-/* left side for more videos */
+/* right side for more videos */
 .more_videos {
   flex-basis: 32%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
-
 }
 
 .more_videos_details {
@@ -95,3 +95,5 @@
   display: block;
   font-size: 0.9rem;
 }
+
+
