@@ -27,7 +27,7 @@
 .video_activities > p,
 .social_cta > span {
   color: gray;
-  font-weight: 500;
+  font-weight: 600;
 }
 .social_activities {
   display: flex;
@@ -140,7 +140,7 @@
 .desc {
   margin-bottom: 10px;
   color: gray;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #total_comments {
@@ -148,13 +148,15 @@
   font-weight: 800;
 }
 
-.user_comment_input {
+.user_comment_input,
+.exisiting_comments_details {
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
 }
 
-.user_comment_input > img {
+.user_comment_input > img,
+.exisiting_comments_details > img {
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -174,4 +176,43 @@
 
 .user_comment_input > textarea::placeholder {
   font-size: 0.8rem;
+}
+
+.exisiting_comments_details .exisiting_comments_title > #days {
+  font-weight: 500;
+  color: gray;
+}
+
+.exisiting_comments_details .exisiting_comments_title #comment_name {
+  font-weight: 600;
+}
+
+.exisiting_comments_details .exisiting_comments_title > p {
+  margin-top: 6px;
+  color: gray;
+  font-weight: 500;
+}
+
+.comment_share {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+.comment_cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.comment_cta > img  {
+  width: 20px;
+}
+
+
+.replies {
+    color: blue;
 }
