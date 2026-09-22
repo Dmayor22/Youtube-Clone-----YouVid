@@ -165,10 +165,11 @@
   border: 0;
   outline: none;
   resize: none;
-  font-size: 1rem;
+  font-size: 14px;
   border-bottom: 1px solid #ccc;
   background: transparent;
   height: 30px;
+  color: #000;
 }
 
 .user_comment_input > textarea::placeholder {
